@@ -15,12 +15,12 @@
 7. <Route path='/*' element= {<Navigate to = {"auth/login"} />} />.
  Esta indica que cualquier path te mandara a la ruta del path auth/login.
 
-8. En FC App se importa el <AppRouter /> de la carpeta **router** del **root**. 
-9. **Se envuelve** En el **FC padre** a enrutar dentro de un
- <BrowserRouter> </BrowserRouter>. 
- En este caso se envolvio al FC App en el main.
+###8. En FC App se importa el <AppRouter /> de la carpeta **router** del **root**. 
+###9. **Se envuelve** En el **FC padre** a enrutar dentro de un
+ ###<BrowserRouter> </BrowserRouter>. 
+ ###En este caso se envolvio al FC App en el main.
 
-10. En la carpeta **router** en **root**. Se configuran las rutas hacia el **FC Routes de cada carpeta**.
-    - <Route path='/auth/*' element={ <AuthRoutes/> } />
-    - <Route path='/*' element={ <JournalRoutes/> } />
+###10. En la carpeta **router** en **root**. Se configuran las rutas hacia el **FC Routes de cada carpeta**.
+    ###- <Route path='/auth/*' element={ <AuthRoutes/> } />
+    ###- <Route path='/*' element={ <JournalRoutes/> } />
 
